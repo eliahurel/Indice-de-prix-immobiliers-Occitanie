@@ -87,3 +87,15 @@ Production automatique de quatre types de visualisations :
 -  **Cartes choroplèthes** du prix médian au m² par commune (2021–2024)
 -  **Cartes de l'indice** — évolution depuis 2010 par commune
 -  **Heatmaps** commune × temps — dynamiques, ruptures et hétérogénéité spatiale
+
+## Résultats clés
+
+| Période | Dynamique observée |
+|---|---|
+| 2011–2016 | Baisse commune (~4 %), plus marquée pour les appartements |
+| 2018–2020 | Reprise progressive |
+| 2020–2022 | Accélération post-COVID, boom des maisons (+10 pts en 2 ans) |
+| 2023–2024 | Retournement lié à la remontée des taux d'intérêt |
+
+Toulouse et Montpellier surperforment la moyenne régionale avec une croissance proche de **+20 %** au pic de 2023, contre **+9 %** pour l'Occitanie dans son ensemble.
+
