@@ -63,4 +63,4 @@ Le code transforme les prix nets en un indice facile à lire, où Janvier 2010 =
 
 Lissage : Une moyenne mobile sur 6 ou 12 mois est appliquée pour éliminer le "bruit" visuel et faire ressortir les vrais cycles.
 
-Sorties graphiques : Production automatique des courbes comparatives, des cartes de prix au $m^2$ et des heatmaps de croissance.
+Sorties graphiques : Production automatique des courbes comparatives, des cartes choroplèthes, une des prix au $m^2$ et des heatmaps de croissance.
