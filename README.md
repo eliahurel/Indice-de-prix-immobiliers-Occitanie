@@ -11,3 +11,8 @@ En travaillant avec votre environnement python vous aurez besoin d'installer ces
 pip install pandas numpy matplotlib seaborn scipy polars
 
 ```
+## Fonctionnement
+
+### Structure du notebook
+
+**Étape 1 — **
