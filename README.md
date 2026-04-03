@@ -23,3 +23,4 @@ pip install pandas numpy matplotlib seaborn scipy polars
 
 ***Création des dummies***
 
+salut
