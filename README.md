@@ -15,4 +15,4 @@ pip install pandas numpy matplotlib seaborn scipy polars
 
 ### Structure du notebook
 
-**Étape 1 — **
+**Étape 1 —**
