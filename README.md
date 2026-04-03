@@ -15,4 +15,11 @@ pip install pandas numpy matplotlib seaborn scipy polars
 
 ### Structure du notebook
 
-**Étape 1 —**
+**Étape 1 : Importation et harmonisation (2010-2024)**
+
+**Étape 2 : Filtrage de la base de donnée**
+
+**Étape 3 : Construction du Modèle Hédonique**
+
+***Création des dummies***
+
