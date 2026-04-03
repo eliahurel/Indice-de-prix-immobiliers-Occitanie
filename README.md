@@ -1,16 +1,32 @@
 # Indice-de-prix-immobiliers-Occitanie
 
-Code réalisé par Mattéo CORREGER et Elia HUREL-LUCEF-LOISEL. 
+Code réalisé par **Mattéo CORREGER** et **Elia HUREL-LUCEF-LOISEL**, dans le cadre de l'UE Conduite de Projet — Master 1 Statistique et Économétrie, Université de Strasbourg (2025/26).  
+Supervisé par **Youssef EL YAAKOUBI**. 
 
 ### Objectif
 
-L'objectif de ce projet est de construire des indices de prix immobiliers à "qualité constante" pour les communes de la région, sur la période 2010-2024.
+L'objectif de ce projet est de construire des **indices de prix immobiliers à "qualité constante"** pour les communes de la région Occitanie, sur la période **2010–2024**.
 
-En travaillant avec votre environnement python vous aurez besoin d'installer ces différents packages ci-dessous. 
+Une simple moyenne des prix observés ne suffit pas : si l'on vend beaucoup de grandes maisons un mois puis de petits studios le suivant, la moyenne chute sans que le marché ait réellement bougé. Nous utilisons un **modèle hédonique** pour isoler l'évolution pure des prix, en neutralisant les effets de surface, de localisation et de composition des biens vendus.
+
+## Installation
+
+En travaillant avec votre environnement Python, installez les packages nécessaires :
 ```
 pip install pandas numpy matplotlib seaborn scipy polars
 
 ```
+## Données
+
+Les données proviennent de la base **DVF+ (Demandes de Valeurs Foncières)**, disponible en open data :  
+[https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
+
+Deux sources sont fusionnées pour couvrir l'ensemble de la période :
+- **2010–2013** : base nationale (extraction Occitanie)
+- **2014–2024** : base DVF+ Occitanie
+
+Après nettoyage : **564 506 transactions maisons** et **397 690 transactions appartements**.
+
 ## Fonctionnement
 
 ### Structure du notebook
