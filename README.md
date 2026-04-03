@@ -19,7 +19,7 @@ pip install pandas numpy matplotlib seaborn scipy polars
 ## Données
 
 Les données proviennent de la base **DVF+ (Demandes de Valeurs Foncières)**, disponible en open data :  
-[https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
+https://datafoncier.cerema.fr/donnees/autres-donnees-foncieres/dvfplus-open-data
 
 Deux sources sont fusionnées pour couvrir l'ensemble de la période :
 - **2010–2013** : base nationale (extraction Occitanie)
