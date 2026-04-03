@@ -23,4 +23,11 @@ pip install pandas numpy matplotlib seaborn scipy polars
 
 ***Création des dummies***
 
-salut
+**Étape 4 :  Création de l'indice "à qualité constante"**
+
+**Étape 5 : Compléter les périodes manquantes**
+
+**Étape 6 : Construction de l'indice base 100**
+
+**Étape 7 : Représentation graphique**
+
